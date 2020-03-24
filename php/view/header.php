@@ -19,7 +19,7 @@
      <nav>
         <section class="merve">
         <ul>
-         <li><a href="home.php">Home</a></li>
+         <li><a href="index.php">Home</a></li>
          <li><a href="blog.php">Blog</a></li>
          <li><a href="game.php">Game</a></li>
          <li><a href="contact.php">Contact</a></li>
