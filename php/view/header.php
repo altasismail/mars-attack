@@ -7,14 +7,28 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+<body>
 <header>
      <h1> 
-         <center>
+      <section class="mervetitle">
+         
             MARS-ATTACK
-         </center>
+       </section>
+        
      </h1>
      <nav>
-          <
+        <section class="merve">
+        <ul>
+         <li><a href="home.php">Home</a></li>
+         <li><a href="blog.php">Blog</a></li>
+         <li><a href="game.php">Game</a></li>
+         <li><a href="contact.php">Contact</a></li>
+         <li><a href="admin.php">Admin</a></li>
+        </lu>
+       </section>
+        
+      </nav>
+</header>
 
 
 
@@ -26,7 +40,6 @@
 
 
 
-<body>
     
 </body>
 </html>
