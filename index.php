@@ -8,10 +8,9 @@
 </head>
 <body>
     <h1>Mars Attack</h1>
-<<<<<<< HEAD
     <h2>Planet X Go!</h2>
-=======
-    <h3>modifie</h3>
->>>>>>> e134dbefc13bde9f429b49916a078d4b73f3882e
+    <p>
+        Arkadaslar bu neden boyle yapiyor?
+    </p>
 </body>
 </html>
