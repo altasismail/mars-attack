@@ -7,6 +7,6 @@
     <title>Mars-Attack</title>
 </head>
 <body>
-    <h1>Mars-Attack</h1>
+    <h1>Mars-</h1>
 </body>
 </html>
