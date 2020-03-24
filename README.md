@@ -1,2 +1,2 @@
 # mars-attack
-C'est la jeu!
+C'est le jeu!
