@@ -9,6 +9,17 @@
 </head>
 <body>
 <header>
+  <section class="starfall">
+    <div class="sky-container">
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+    
+    <div class="border"></div>
+  </section>
   <section class="mervetitle">
     <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
   </section>
@@ -24,7 +35,7 @@
       </ul>
     </section>
   </nav>
-
+  
 </header>
 
 
