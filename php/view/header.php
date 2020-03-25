@@ -24,7 +24,7 @@
             <li><a href="game.php">Game</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="admin.php">Admin</a></li>
-           </lu>
+           </ul>
        </section>
         
       </nav>
