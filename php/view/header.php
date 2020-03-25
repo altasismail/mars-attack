@@ -13,7 +13,6 @@
     <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
   </section>
         
-
   <nav>
     <section class="merve">
       <ul>
@@ -25,7 +24,7 @@
       </ul>
     </section>
   </nav>
-  
+
 </header>
 
 
