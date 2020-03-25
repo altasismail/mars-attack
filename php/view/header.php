@@ -18,7 +18,12 @@
           <div class="star"></div>
         </div>
   </section>
+<<<<<<< HEAD
   
+=======
+
+
+>>>>>>> 6be5b548d097c0416845cea3b512e13500602edc
   <section class="mervetitle">
     <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
     <nav>
