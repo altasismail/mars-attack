@@ -1,7 +1,5 @@
+<section class="general">
 
-<section class="foto">
-    <img src="assets/img/foto1.png" alt="1.foto">
-</section>
 <section class="fotolar">
 <div class="yazi">
       <article>
