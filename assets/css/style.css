@@ -18,6 +18,8 @@ body {
   font-size: 12px;
   line-height: 30px;
   color: #777;
+  background-image: url("assets/img/marsAttack2-min.png");
+  background-repeat: no-repeat;
   background: rgb(37, 37, 37);
 }
 
@@ -142,11 +144,15 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-.mervetitle {padding: 60px;
-             text-align: center;
-             color: white;
-             font-size: 50px;
-            
+.mervetitle {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+             
+}
+.mervetitle img{
+  max-height: 100px;
+  max-width: 100%;
 }
 
 ul { list-style-type: none;

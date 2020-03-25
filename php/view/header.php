@@ -9,25 +9,21 @@
 </head>
 <body>
 <header>
-     <h1> 
-      <section class="mervetitle">
-         
-            MARS-ATTACK
-       </section>
+  <section class="mervetitle">
+    <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
+  </section>
         
-     </h1>
-     <nav>
-        <section class="merve">
-        <ul>
-         <li><a href="index.php">Home</a></li>
-         <li><a href="blog.php">Blog</a></li>
-         <li><a href="game.php">Game</a></li>
-         <li><a href="contact.php">Contact</a></li>
-         <li><a href="admin.php">Admin</a></li>
-        </lu>
-       </section>
-        
-      </nav>
+  <nav>
+    <section class="merve">
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="blog.php">Blog</a></li>
+        <li><a href="game.php">Game</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="admin.php">Admin</a></li>
+      </ul>
+    </section>
+  </nav>
 </header>
 
 
