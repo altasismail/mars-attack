@@ -1,8 +1,3 @@
-
-
-.merve > ul {
-  margin-top: 0;
-}
 /*
     Page de Contact-Nous
 */
@@ -161,6 +156,14 @@ fieldset {
   color: #888;
 }
 
+
+/*
+=========================================================================
+*/
+
+
+
+
 /*
     Le Menu
 */
@@ -200,6 +203,14 @@ ul li {display:inline-block;
 
 }
 
+
+
+
+/*
+=========================================================================
+*/
+
+
 /*
     Main BG Photo
 */
@@ -219,6 +230,9 @@ ul li {display:inline-block;
 
 }
 
+/*
+=========================================================================
+*/
 
 /*
     Photo de Footer dans page de Home
@@ -233,6 +247,15 @@ ul li {display:inline-block;
     margin-top:1em;
  
 }
+
+
+
+/*
+=========================================================================
+*/
+
+
+
 
 /* Shooting stars animation css starts here !!!*/
 
@@ -384,7 +407,9 @@ ul li {display:inline-block;
 
 /* Shooting stars animation css ends here !!!*/
 
-
+/*
+=========================================================================
+*/
 
 
 
@@ -417,3 +442,10 @@ ul li {display:inline-block;
 .blogTitle {
   text-align: center;
 }
+
+
+
+
+/*
+=========================================================================
+*/
