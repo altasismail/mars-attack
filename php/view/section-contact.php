@@ -1,3 +1,8 @@
+<section class="foto">
+    <img src="assets/img/foto1.png" alt="1.foto">
+</section>
+
+
 <div class="container">  
   <form id="contact" action="" method="post">
     <h3>MARS-ATTACK</h3>
