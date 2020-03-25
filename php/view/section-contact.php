@@ -1,7 +1,4 @@
-<section class="foto">
-    <img src="assets/img/foto1.png" alt="1.foto">
-</section>
-
+<section class="general">
 
 <div class="container">  
   <form id="contact" action="" method="post">
@@ -24,3 +21,55 @@
     </fieldset>
   </form>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
