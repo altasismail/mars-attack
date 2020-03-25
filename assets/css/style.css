@@ -12,6 +12,12 @@
   text-rendering: optimizeLegibility;
 }
 
+.comingSoon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -155,37 +161,34 @@ fieldset {
   max-width: 100%;
 }
 
+
+
 ul { list-style-type: none;
      margin: 0;
      padding: 0;
      overflow: hidden;
      background-color: #333;
-  
-}
-li {
-  float:right;
+     text-align: center;
+
 }
 
-li a { 
-       display: block;
-       color: white;
-       text-align: center;
+
+
+li a { float:right;
+       color: #f2f2f2;
+       text-align: justify;
        padding: 14px 16px;
        text-decoration: none;
+       font-size: 17px;
 
 }
-<<<<<<< HEAD
-li a:hover {
-  background-color: #111;
-}
-
-
-.comingSoon {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    font-size: 40px;
-=======
 li a:hover { background-color: #111;
->>>>>>> bc11f3e21c7781fb2d6dadf0ad79614df11f115d
+
+
+}
+ul li {display:inline-block;
+     
+
+
+
 }
