@@ -429,6 +429,7 @@ ul li {display:inline-block;
 }
 
 .blogPhoto > img {
+  border-radius: 5%;
   max-width: 350px;
   max-height: 500px;
 }
