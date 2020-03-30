@@ -239,11 +239,9 @@ ul li {display:inline-block;
  
 }
 
-<<<<<<< HEAD
 
 
 /*
-=========================================================================
 */
 
 
@@ -402,5 +400,4 @@ ul li {display:inline-block;
   flex-wrap: wrap-reverse
   width:calc(100%/3);
   color: white;
->>>>>>> 8a30a11259320c14c16a101594b20afac6041024
 }
