@@ -284,7 +284,6 @@ ul li {display:inline-block;
 } */
 
 .sky-container {
-<<<<<<< HEAD
   width: 1200px;
   height: 200px;
 /*background: linear-gradient(125deg, #00103a 0%, #3e5f77 100%);*/
@@ -292,14 +291,6 @@ ul li {display:inline-block;
 /*  border-radius: 50%;*/
   transform: rotateZ(45deg);
   position: -30px 50%;
-=======
-  width: 1920px;
-  height: 100px;
-/*background: linear-gradient(125deg, #00103a 0%, #3e5f77 100%);*/
-/*clip-path: circle(50% at 50% 50%);*/
-/*  border-radius: 50%;*/
-  transform: rotateZ(38deg);
->>>>>>> 6be5b548d097c0416845cea3b512e13500602edc
 }
 
 /*.border {
