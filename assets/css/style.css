@@ -1,3 +1,8 @@
+
+
+.merve > ul {
+  margin-top: 0;
+}
 /*
     Page de Contact-Nous
 */
@@ -32,7 +37,6 @@ body {
   background-image: url("assets/img/marsAttack2-min.png");
   background-repeat: no-repeat;
   background: linear-gradient(125deg, #00103a 0%, #3e5f77 100%);
-  
 }
 
 .container {
@@ -157,25 +161,13 @@ fieldset {
   color: #888;
 }
 
-
-/*
-=========================================================================
-*/
-
-
-
-
 /*
     Le Menu
 */
 .mervetitle {
   text-align: center;
+  color: white;
   font-size: 50px;
-  position: absolute;
-  left: 480px;
-  top: 50px;
-  
-  
              
 }
 .mervetitle img{
@@ -208,21 +200,18 @@ ul li {display:inline-block;
 
 }
 
-
-
-
-/*
-=========================================================================
-*/
-
-
 /*
     Main BG Photo
 */
+/* .foto img {
+  width:100% ; height: 900px; object-fit: cover;
+  opacity: 30%;
+} */
+
 
 .general::before {
   background-image: url("../../assets/img/foto1.png");
-  background-size: cover;
+   background-size: cover;
   content: "";
   display: block;
   position: absolute;
@@ -235,9 +224,6 @@ ul li {display:inline-block;
 
 }
 
-/*
-=========================================================================
-*/
 
 /*
     Photo de Footer dans page de Home
@@ -247,12 +233,13 @@ ul li {display:inline-block;
     max-width:100%;
     height:300px;
     object-fit:cover;
-    width:calc(100%/3.15);
+    width:calc(100%);
     margin-left:1em;
     margin-top:1em;
  
 }
 
+<<<<<<< HEAD
 
 
 /*
@@ -409,50 +396,11 @@ ul li {display:inline-block;
   100% {
     transform: translateX(320px);
   }
+=======
+.yazi {
+  display:flex;
+  flex-wrap: wrap-reverse
+  width:calc(100%/3);
+  color: white;
+>>>>>>> 8a30a11259320c14c16a101594b20afac6041024
 }
-
-/* Shooting stars animation css ends here !!!*/
-
-/*
-=========================================================================
-*/
-
-
-
-/*
-  Blog Post Style
-*/
-
-
-.blogPost {
-  max-width: 750px;
-  margin-top: 10px;
-  margin-left:5px;
-  padding: 5px;
-  display: flex;
-  justify-content: left;
-  background-color:rgba(129, 129, 151, 0.246);
-}
-
-.blogPhoto > img {
-  border-radius: 5%;
-  max-width: 350px;
-  max-height: 500px;
-}
-
-.blogTextBox {
-  margin-left: 10px;
-  max-width: 400px;
-  color: black;
-}
-
-.blogTitle {
-  text-align: center;
-}
-
-
-
-
-/*
-=========================================================================
-*/
