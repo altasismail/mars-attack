@@ -196,16 +196,8 @@ li a { float:right;
 
 }
 li a:hover { background-color: #111;
-<<<<<<< HEAD
-           
-
 }
 ul li {display:inline-block;
-
-=======
-}
-ul li {display:inline-block;
->>>>>>> b1b349a5ad96401cac4781c3b3e746d3b5205b8c
 
 }
 
