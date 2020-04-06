@@ -6,8 +6,20 @@
   opacity: 30%;
 } */
 
-.neslihan-blogResimleri {
+.neslihan-blogResimleri img{
     border-radius: 50%;
+    width:50%;
+    height:400px;
+    object-fit:cover;
+    float: left;
+    
+ }
+
+ .neslihan-blogResimleri h2{
+    margin:0.5rem;
+    width: calc( 100% / 2- 1rem);
+    float: left;
+
  }
  
  /*.neslihan-fotolar img{
@@ -26,6 +38,7 @@
     margin:0.5rem;
     width: calc( 100% / 3 - 1rem);
     float: left;
+    
 }
 
 .neslihan-fotolar img {
