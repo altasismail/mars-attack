@@ -19,7 +19,7 @@
         </div>
   </section>
   
-  <section class="mervetitle">
+  <section class="mktitle">
     <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
     <nav>
       <ul>
