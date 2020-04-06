@@ -1,12 +1,12 @@
 <section class="general">
 
-
-<h1 class="comingSoon">COMING SOON...</h1>
-
-
-<sectoin class="blogPost">
-    <div class="blogPhoto">
+<section class="blogPost">
+    <div class="neslihan-blogResimleri">
         <img src="assets/img/blogPhotos/marsian.jpg" alt="">
+        <img src="assets/img/foto6.jpg" alt="">
+        <img src="assets/img/foto7.jpg" alt="">
+        <img src="assets/img/foto8.jpg" alt="">
+
     </div>
     <div class="blogTextBox">
         <div class="blogTitle">
