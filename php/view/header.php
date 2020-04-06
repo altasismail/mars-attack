@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/altas.css">
     <link rel="stylesheet" href="assets/css/aydin.css">
     <link rel="stylesheet" href="assets/css/merve.css">
     <link rel="stylesheet" href="assets/css/neslihan.css">
+    <link rel="stylesheet" href="assets/css/general.css">
 
 </head>
 <body>
