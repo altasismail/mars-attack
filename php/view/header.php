@@ -16,9 +16,9 @@
 <header>
   
     <section class="mervetitle">
-      <section class="altas-logo">
-        <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
-      </section>
+        <section class="altas-logo">
+            <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
+        </section>
       <nav>
         <ul>
           <li><a href="index.php">Home</a></li>
