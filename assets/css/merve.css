@@ -9,14 +9,14 @@
   display: inline-block;
 
 
-  .mervetitle {
+  .mktitle {
     text-align: center;
     color: white;
     font-size: 50px;
                
    }
   
-  .mervetitle img{
+  .mktitle img{
     max-height: 100px;
     max-width: 100%;
   }
