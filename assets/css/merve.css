@@ -6,7 +6,8 @@
   /*z-index: -1;*/
   max-width: 25%;
   max-height: 100%;
-  display: inline-block;
+  display: inline-block
+}
 
 
   .mktitle {
@@ -24,8 +25,7 @@
 
   
   ul { list-style-type: none;
-       margin: ;
-       padding: ;
+       padding: 10px;
        overflow:hidden;
        background-color: #333;
        text-align: center;
@@ -50,4 +50,3 @@
 
 
   
-}
