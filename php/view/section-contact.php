@@ -1,4 +1,4 @@
-<section class="general">
+<section class="aydnGeneral">
 
 <div class="aydnContainer">  
   <form id="aydnContact" action="" method="post">
