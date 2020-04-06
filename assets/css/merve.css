@@ -1,9 +1,20 @@
-.mervetitle {
+
+.altas-logo img {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  /*z-index: -1;*/
+  max-width: 25%;
+  max-height: 100%;
+  display: inline-block;
+
+
+  .mervetitle {
     text-align: center;
     color: white;
     font-size: 50px;
                
-  }
+   }
   
   .mervetitle img{
     max-height: 100px;
@@ -33,6 +44,10 @@
   }
   li a:hover { background-color: #111;
   }
-  ul li {display:inline-block;
+  .merve title ul li {display:inline-block;
   
   }
+
+
+  
+}
