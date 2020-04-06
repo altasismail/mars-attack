@@ -1,7 +1,7 @@
 <section class="general">
 
-<section class="fotolar">
-<div class="yazi">
+<section class="neslihan-fotolar">
+<div class="neslihan-yazi">
       <article>
       <img src="assets/img/foto4.jpg" alt="4.foto">
         <h3>Un voyage vers Mars!</h3>

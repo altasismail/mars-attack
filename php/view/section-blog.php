@@ -1,7 +1,7 @@
 <section class="general">
 
 <section class="blogPost">
-    <div class="blogResimleri">
+    <div class="neslihan-blogResimleri">
         <img src="assets/img/blogPhotos/marsian.jpg" alt="">
         <img src="assets/img/foto6.jpg" alt="">
         <img src="assets/img/foto7.jpg" alt="">

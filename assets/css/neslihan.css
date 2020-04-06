@@ -1,0 +1,22 @@
+/*
+    Main BG Photo
+*/
+/* .foto img {
+  width:100% ; height: 900px; object-fit: cover;
+  opacity: 30%;
+} */
+
+.neslihan-blogResimleri {
+    border-radius: 50%;
+ }
+ 
+ .neslihan-fotolar img {
+    border-radius: 8px;
+    max-width:100%;
+    height:300px;
+    object-fit:cover;
+    width:calc(100%);
+    margin-left:1em;
+    margin-top:1em;
+ 
+}
