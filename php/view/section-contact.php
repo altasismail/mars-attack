@@ -1,7 +1,7 @@
 <section class="general">
 
-<div class="container">  
-  <form id="contact" action="" method="post">
+<div class="aydnContainer">  
+  <form id="aydnContact" action="" method="post">
     <h3>MARS-ATTACK</h3>
     <h4>Contactez-Nous pour Mars-Attack</h4>
     <fieldset>
