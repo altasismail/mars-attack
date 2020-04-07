@@ -26,6 +26,7 @@
   position: relative;
 }
 
+
 #aydnContact input[type="text"],
 #aydnContact input[type="email"],
 #aydnContact input[type="tel"],
@@ -123,6 +124,15 @@ fieldset {
 #contaydnContactact textarea:focus {
   outline: 0;
   border: 1px solid #aaa;
+}
+
+#aydnContact .aydnContactTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#aydnContact h4 {
+  margin-bottom: 3px;
 }
 
 ::-webkit-input-placeholder {
