@@ -6,6 +6,6 @@
         <input type="checkbox" class="aydnLoginRemember">
         <label for="aydnLoginRemember">Remember me</label><br>
         <input type="submit" class="aydnLoginButton" value="SIGN IN">
-        <p>Not a member? <span>Sign up now</span></p>
+        <p>Not a member? <span><a href="signUp.php">Sign up now</a></span></p>
     </form>
 </div>
