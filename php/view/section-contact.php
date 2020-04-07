@@ -4,7 +4,7 @@
 
 <div class="aydnContainer">  
   <form id="aydnContact" action="" method="post">
-    <h3>MARS-ATTACK</h3>
+    <h3 class="aydnContactTitle">MARS-ATTACK</h3>
     <h4>Contactez-Nous pour Mars-Attack</h4>
     <fieldset>
       <input placeholder="Entrez votre nom" type="text" tabindex="1" required autofocus>
