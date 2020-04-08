@@ -15,7 +15,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 } */
 
@@ -25,6 +24,7 @@
   margin: 0 auto;
   position: relative;
 }
+
 
 #aydnContact input[type="text"],
 #aydnContact input[type="email"],
@@ -125,6 +125,15 @@ fieldset {
   border: 1px solid #aaa;
 }
 
+#aydnContact .aydnContactTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#aydnContact h4 {
+  margin-bottom: 3px;
+}
+
 ::-webkit-input-placeholder {
   color: #888;
 }
@@ -169,7 +178,6 @@ fieldset {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 } */
 
@@ -227,10 +235,7 @@ fieldset {
 }
 
 #aydnLoginForm input[type="email"]:hover,
-#aydnLoginForm input[type="password"]:hover,
-#aydnLoginForm input[type="checkbox"]:hover,
-#aydnLoginForm label:hover,
-#aydnLoginForm textarea:hover {
+#aydnLoginForm input[type="password"]:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
@@ -305,6 +310,273 @@ fieldset {
 
 /*
 
-  .....
+  Admin Login Page Codes
 
 */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.aydnAdminContainer {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#aydnAdminForm input[type="email"],
+#aydnAdminForm input[type="password"],
+#aydnAdminForm input[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#aydnAdminForm {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#aydnAdminForm h2 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#aydnAdminForm h2 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#aydnAdminForm input[type="email"],
+#aydnAdminForm input[type="password"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#aydnAdminForm input[type="email"]:hover,
+#aydnAdminForm input[type="password"]:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#aydnAdminForm input[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#aydnAdminForm input[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#aydnAdminForm input[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#aydnAdminForm input:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+#aydnAdminForm input[type="email"] {
+  margin-top: 15px;
+}
+
+#aydnAdminForm input[type="password"],
+#aydnAdminForm input[type="submit"] {
+  margin-top: 8px;
+}
+
+
+/*
+
+  Admin Login Page Codes !!!!!
+
+*/
+
+
+/*
+  ==============================================
+*/
+
+
+/*
+
+  Sign Up page Codes 
+
+*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.aydnSignUpContainer {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#aydnSignUpForm input[type="email"],
+#aydnSignUpForm input[type="password"],
+#aydnSignUpForm input[type="text"],
+#aydnSignUpForm input[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#aydnSignUpForm {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#aydnSignUpForm h2 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#aydnSignUpForm h2 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#aydnSignUpForm input[type="email"],
+#aydnSignUpForm input[type="text"],
+#aydnSignUpForm input[type="password"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#aydnSignUpForm input[type="email"]:hover,
+#aydnSignUpForm input[type="password"]:hover,
+#aydnSignUpForm input[type="text"]:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+
+#aydnSignUpForm input[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+
+#aydnSignUpForm input[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#aydnSignUpForm input[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#aydnSignUpForm input:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+#aydnSignUpForm input[type="email"],
+#aydnSignUpForm input[type="password"],
+#aydnSignUpForm input[type="text"],
+#aydnSignUpForm input[type="submit"] {
+  margin-top: 8px;
+}
+
+#aydnSignUpForm input[type="password"].aydnSignUpPwdCnfrm {
+  margin-bottom: 20px;
+}
+
+
+/*
+
+  Sign Up page Codes  !!!!!
+
+*/
+
+
+/*
+  ==============================================
+*/
+
+
+/*
+
+  ................... 
+
+*/
+
+
