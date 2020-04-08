@@ -1,10 +1,4 @@
-<html>
-<head>
-<title>altas-game-board</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" href="assets/css/altas.css">
-</head>
-<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
 <!-- Save for Web Slices (GameBoard-1.tif) -->
 <table class="altas-game-table" id="Table_01" width="1200" height="1200" border="0" cellpadding="0" cellspacing="0">
 	<tr class="altas-game-table">
@@ -125,5 +119,4 @@
 	</tr>
 </table>
 <!-- End Save for Web Slices -->
-</body>
-</html>
+
