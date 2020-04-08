@@ -1,4 +1,16 @@
 
+.altas-logo img {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  /*z-index: -1;*/
+  max-width: 25%;
+  max-height: 100%;
+  display: inline-block
+  
+}
+
+
   .mktitle {
     text-align: center;
     color: white;
@@ -13,7 +25,7 @@
 
 
   
-  ul { list-style-type: none;
+  .mknav ul { list-style-type: none;
        padding: 10px;
        overflow:hidden;
        background-color: #333;
@@ -22,7 +34,7 @@
   }
   
   
-  li a { float:right;
+  .mknav li a { float:right;
          color: #f2f2f2;
          text-align: center;
          padding: 12px 14px;
@@ -31,9 +43,9 @@
   
   
   }
-  li a:hover { background-color: #111;
+ .mknav li a:hover { background-color: #111;
   }
-  ul li {display:inline-block;
+ .mknav ul li {display:inline-block;
   
   }
 

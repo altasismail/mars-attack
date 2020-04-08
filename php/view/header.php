@@ -15,7 +15,7 @@
   <header>
     <section class="mktitle">
        <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
-         <nav>
+         <nav class="mknav">
            <ul>
              
              <li><a href="index.php">Home</a></li>
