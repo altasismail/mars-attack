@@ -1,3 +1,4 @@
+<section class="aydnSignUpGeneral">
 <div class="aydnSignUpContainer">
     <form id="aydnSignUpForm" method="post">
         <h2 class="aydnSignUpTitle">LOGIN</h2>
@@ -10,3 +11,4 @@
         <p>Mars-Attack</p>
     </form>
 </div>
+</section>

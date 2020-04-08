@@ -6,7 +6,7 @@
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-/* * {
+ .aydnGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,7 +16,7 @@
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-} */
+}
 
 .aydnContainer {
   max-width: 400px;
@@ -24,7 +24,6 @@
   margin: 0 auto;
   position: relative;
 }
-
 
 #aydnContact input[type="text"],
 #aydnContact input[type="email"],
@@ -55,14 +54,14 @@
   font-size: 13px;
   font-weight: 400;
 }
-/* 
+
 fieldset {
   border: medium none !important;
   margin: 0 0 10px;
   min-width: 100%;
   padding: 0;
   width: 100%;
-} */
+}
 
 #aydnContact input[type="text"],
 #aydnContact input[type="email"],
@@ -169,7 +168,7 @@ fieldset {
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-/* * {
+.aydnLoginGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -179,7 +178,7 @@ fieldset {
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-} */
+}
 
 .aydnLoginContainer {
   max-width: 400px;
@@ -217,13 +216,13 @@ fieldset {
   text-align: center;
 }
 
-/* fieldset {
+fieldset {
   border: medium none !important;
   margin: 0 0 10px;
   min-width: 100%;
   padding: 0;
   width: 100%;
-} */
+}
 
 #aydnLoginForm input[type="email"],
 #aydnLoginForm input[type="password"] {
@@ -315,7 +314,7 @@ fieldset {
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+.aydnAdminGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -444,7 +443,7 @@ fieldset {
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+.aydnSignUpGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
