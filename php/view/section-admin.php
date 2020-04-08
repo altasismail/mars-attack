@@ -1,3 +1,4 @@
+<section class="aydnAdminGeneral">
 <div class="aydnAdminContainer">
     <form id="aydnAdminForm" method="post">
         <h2 class="aydnAdminTitle">ADMIN</h2>
@@ -6,3 +7,4 @@
         <input type="submit" class="aydnAdminButton" value="SIGN IN">
     </form>
 </div>
+</section>

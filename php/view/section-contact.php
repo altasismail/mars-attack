@@ -1,7 +1,6 @@
 
 
 <section class="aydnGeneral">
-
 <div class="aydnContainer">  
   <form id="aydnContact" method="post">
     <h3 class="aydnContactTitle">MARS-ATTACK</h3>
@@ -23,55 +22,6 @@
     </fieldset>
   </form>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </section>
 
 

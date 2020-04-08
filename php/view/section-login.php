@@ -1,3 +1,5 @@
+
+<section class="aydnLoginGeneral">
 <div class="aydnLoginContainer">
     <form id="aydnLoginForm" method="post">
         <h2 class="aydnLoginTitle">LOGIN</h2>
@@ -9,3 +11,4 @@
         <p>Not a member? <span><a href="signUp.php">Sign up now</a></span></p>
     </form>
 </div>
+</section>

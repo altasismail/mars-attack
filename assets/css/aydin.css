@@ -6,7 +6,7 @@
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+ .aydnGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,7 +24,6 @@
   margin: 0 auto;
   position: relative;
 }
-
 
 #aydnContact input[type="text"],
 #aydnContact input[type="email"],
@@ -169,7 +168,7 @@ fieldset {
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+.aydnLoginGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -315,7 +314,7 @@ fieldset {
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+.aydnAdminGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -444,7 +443,7 @@ fieldset {
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+.aydnSignUpGeneral {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
