@@ -1,16 +1,5 @@
-.altas-game {
-    display: flex;
-    justify-content: flex-start;
-}
-.altas-table-info {
-    font-family: Arial, Helvetica, sans-serif;
-    color: azure;
-    margin-top: 52px;
-}
-.altas-game-table {
-    align-items: baseline;
-}
-.cards {
-    justify-content: first baseline;
-    align-content: flex-start;
+.allboards table {
+    overflow-wrap: normal;
+    max-height: 800px;
+    max-width: 100%;
 }
