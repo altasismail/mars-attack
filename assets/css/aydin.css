@@ -6,7 +6,7 @@
 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,7 +17,7 @@
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
+} */
 
 .aydnContainer {
   max-width: 400px;
@@ -55,14 +55,14 @@
   font-size: 13px;
   font-weight: 400;
 }
-
+/* 
 fieldset {
   border: medium none !important;
   margin: 0 0 10px;
   min-width: 100%;
   padding: 0;
   width: 100%;
-}
+} */
 
 #aydnContact input[type="text"],
 #aydnContact input[type="email"],
@@ -160,7 +160,7 @@ fieldset {
 */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -171,7 +171,7 @@ fieldset {
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
+} */
 
 .aydnLoginContainer {
   max-width: 400px;
@@ -209,13 +209,13 @@ fieldset {
   text-align: center;
 }
 
-fieldset {
+/* fieldset {
   border: medium none !important;
   margin: 0 0 10px;
   min-width: 100%;
   padding: 0;
   width: 100%;
-}
+} */
 
 #aydnLoginForm input[type="email"],
 #aydnLoginForm input[type="password"] {
