@@ -58,15 +58,21 @@
     float: left;
     border-radius: 8px;
 }
+
+.neslihan-anafoto img{
+    width: 1000px  ;height: 300px; object-fit: cover;
+
+}
 /*.yazi {
     display:flex;
     flex-wrap: wrap-reverse
     width:calc(100%/3);
     color: white;*/
 
-    body 
+    /* body 
     {
-        background-image: url("assets/img/foto1.png");
+        background-image:url("assets/img/foto1.png");
         background-repeat: no-repeat; 
-    }
+        background-size: cover;
+    } */
     
