@@ -18,12 +18,12 @@
          <nav class="mknav">
            <ul>
              
-             <li><a href="index.php">Home</a></li>
-             <li><a href="blog.php">Blog</a></li>
-             <li><a href="game.php">Game</a></li>
-             <li><a href="contact.php">Contact</a></li>
-             <li><a href="admin.php">Admin</a></li>
-             <li style="float:right"><a class="active" href="login.php">Login</a></li>
+             <li><a class="mkindex"   href="index.php">Home</a></li>
+             <li><a class="mkblog"    href="blog.php">Blog</a></li>
+             <li><a class="mkgame"    href="game.php">Game</a></li>
+             <li><a class="mkcontact" href="contact.php">Contact</a></li>
+             <li><a class="mkadmin"   href="admin.php">Admin</a></li>
+             <li style="float:right"><a class="mkactive" href="login.php">Login</a></li>
              
            </ul>
          </nav>
