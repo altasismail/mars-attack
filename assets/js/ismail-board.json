@@ -1,0 +1,137 @@
+[ 
+    {
+        "que": 1,
+        "id": "Start",
+        "Purchasable": false,
+        "Collect": 200
+    },
+    {
+        "que": 2,
+        "id": "mercure",
+        "group": "Brown",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "Purchasable": true,
+        "Cost":[
+            {
+                "purchase": 60,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "Rent":
+        [
+            {
+                "visit": 2,
+                "set": 4,
+                "stationx1": 10, 
+                "stationx2": 30, 
+                "stationx3": 90, 
+                "stationx4": 160, 
+                "colony": 250 
+            }
+        ]
+        
+    },
+    {
+        "que": 3,
+        "id": "inventory-station-0",
+        "Purchasable": false,
+        "chance": 1
+    },
+    {
+        "que": 4,
+        "id": "venus",
+        "group": "Brown",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "Purchasable": true,
+        "Cost":[
+            {
+                "purchase": 60,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "Rent":
+        [
+            {
+                "visit": 4,
+                "set": 8,
+                "stationx1": 20, 
+                "stationx2": 60, 
+                "stationx3": 180, 
+                "stationx4": 320, 
+                "colony": 450 
+            }
+        ]
+        
+    },
+    {
+        "que": 5,
+        "id": "meteor-damage",
+        "Purchasable": false,
+        "Pay": 200
+    },
+    {
+        "que": 6,
+        "id": "earth-station",
+        "group": "stations",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "Purchasable": true,
+        "Cost":[
+            {
+                "purchase": 200,
+            }
+        ],
+            
+       "Rent":
+        [
+            {
+                "visit": 25,
+                "2station": 50,
+                "3station": 100,
+                "set": 200
+                
+            }
+        ]
+        
+    },
+    {
+        "que": 7,
+        "id": "earth",
+        "group": "sky",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "Purchasable": true,
+        "Cost":[
+            {
+                "purchase": 100,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "Rent":
+        [
+            {
+                "visit": 4,
+                "set": 8,
+                "stationx1": 20, 
+                "stationx2": 60, 
+                "stationx3": 180, 
+                "stationx4": 320, 
+                "colony": 450 
+            }
+        ]
+        
+    },
+
+]
