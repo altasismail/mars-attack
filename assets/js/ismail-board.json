@@ -1,0 +1,877 @@
+[ 
+    {
+        "que": 1,
+        "id": "start",
+        "purchasable": false,
+        "collect": 200
+    },
+    {
+        "que": 2,
+        "id": "mercure",
+        "group": "brown",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 60,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 2,
+                "set": 4,
+                "stationx1": 10, 
+                "stationx2": 30, 
+                "stationx3": 90, 
+                "stationx4": 160, 
+                "colony": 250 
+            }
+        ]
+        
+    },
+    {
+        "que": 3,
+        "id": "inventory-station-0",
+        "purchasable": false,
+        "chance": 1
+    },
+    {
+        "que": 4,
+        "id": "venus",
+        "group": "brown",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 60,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 4,
+                "set": 8,
+                "stationx1": 20, 
+                "stationx2": 60, 
+                "stationx3": 180, 
+                "stationx4": 320, 
+                "colony": 450 
+            }
+        ]
+        
+    },
+    {
+        "que": 5,
+        "id": "meteor-damage",
+        "purchasable": false,
+        "pay": 200
+    },
+    {
+        "que": 6,
+        "id": "earth-station",
+        "group": "stations",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 25,
+                "2station": 50,
+                "3station": 100,
+                "set": 200
+                
+            }
+        ]
+        
+    },
+    {
+        "que": 7,
+        "id": "earth",
+        "group": "sky",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 100,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 6,
+                "set": 12,
+                "stationx1": 30, 
+                "stationx2": 90, 
+                "stationx3": 270, 
+                "stationx4": 400, 
+                "colony": 550 
+            }
+        ]
+        
+    },
+    {
+        "que": 8,
+        "id": "new-discovery-0",
+        "purchasable": false,
+        "chance": 1
+    },
+    {
+        "que": 9,
+        "id": "moon",
+        "group": "sky",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 100,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 6,
+                "set": 12,
+                "stationx1": 30, 
+                "stationx2": 90, 
+                "stationx3": 270, 
+                "stationx4": 400, 
+                "colony": 550 
+            }
+        ]
+        
+    },
+    {
+        "que": 10,
+        "id": "mars",
+        "group": "sky",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 100,
+                "setStation": 50,
+                "setColony": 50
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 8,
+                "set": 16,
+                "stationx1": 40, 
+                "stationx2": 100, 
+                "stationx3": 300, 
+                "stationx4": 450, 
+                "colony": 600 
+            }
+        ]
+        
+    },
+    {
+        "que": 11,
+        "id": "just-escaped",
+        "purchasable": false,
+        "action": null
+
+
+    },
+    {
+        "que": 12,
+        "id": "jupiter",
+        "group": "pink",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 140,
+                "setStation": 100,
+                "setColony": 100
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 10,
+                "set": 20,
+                "stationx1": 50, 
+                "stationx2": 150, 
+                "stationx3": 450, 
+                "stationx4": 625, 
+                "colony": 750 
+            }
+        ]
+        
+    },
+    {
+        "que": 13,
+        "id": "interstellar-network",
+        "group": "interstellar",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 150
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": "$dicevalue*5",
+                "2station": "$dicevalue*10"
+                
+            }
+        ]
+        
+    },
+    {
+        "que": 14,
+        "id": "io",
+        "group": "pink",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 140,
+                "setStation": 100,
+                "setColony": 100
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 10,
+                "set": 20,
+                "stationx1": 50, 
+                "stationx2": 150, 
+                "stationx3": 450, 
+                "stationx4": 625, 
+                "colony": 750 
+            }
+        ]
+        
+    },
+    {
+        "que": 15,
+        "id": "europa",
+        "group": "pink",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 160,
+                "setStation": 100,
+                "setColony": 100
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 12,
+                "set": 24,
+                "stationx1": 60, 
+                "stationx2": 180, 
+                "stationx3": 500, 
+                "stationx4": 700, 
+                "colony": 900 
+            }
+        ]
+        
+    },
+    {
+        "que": 16,
+        "id": "jupiter-station",
+        "group": "stations",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 25,
+                "2station": 50,
+                "3station": 100,
+                "set": 200
+                
+            }
+        ]
+        
+    },
+    {
+        "que": 17,
+        "id": "callisto",
+        "group": "orange",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 180,
+                "setStation": 100,
+                "setColony": 100
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 14,
+                "set": 28,
+                "stationx1": 70, 
+                "stationx2": 200, 
+                "stationx3": 550, 
+                "stationx4": 750, 
+                "colony": 950 
+            }
+        ]
+        
+    },
+    {
+        "que": 18,
+        "id": "inventory-station-1",
+        "purchasable": false,
+        "chance": 1
+    },
+    {
+        "que": 19,
+        "id": "ganymede",
+        "group": "orange",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 180,
+                "setStation": 100,
+                "setColony": 100
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 14,
+                "set": 28,
+                "stationx1": 70, 
+                "stationx2": 200, 
+                "stationx3": 550, 
+                "stationx4": 750, 
+                "colony": 950 
+            }
+        ]
+        
+    },
+    {
+        "que": 20,
+        "id": "enceladus",
+        "group": "orange",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 200,
+                "setStation": 100,
+                "setColony": 100
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 16,
+                "set": 32,
+                "stationx1": 80, 
+                "stationx2": 220, 
+                "stationx3": 600, 
+                "stationx4": 800, 
+                "colony": 1000 
+            }
+        ]
+        
+    },
+    {
+        "que": 21,
+        "id": "free-space",
+        "purchasable": false,
+        "action": null
+
+    },
+    {
+        "que": 22,
+        "id": "titan",
+        "group": "red",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 220,
+                "setStation": 150,
+                "setColony": 150
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 18,
+                "set": 36,
+                "stationx1": 90, 
+                "stationx2": 250, 
+                "stationx3": 700, 
+                "stationx4": 875, 
+                "colony": 1050 
+            }
+        ]
+        
+    },
+    {
+        "que": 23,
+        "id": "new-discovery-1",
+        "purchasable": false,
+        "chance": 1
+    },
+    {
+        "que": 24,
+        "id": "dione",
+        "group": "red",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 220,
+                "setStation": 150,
+                "setColony": 150
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 18,
+                "set": 36,
+                "stationx1": 90, 
+                "stationx2": 250, 
+                "stationx3": 700, 
+                "stationx4": 875, 
+                "colony": 1050 
+            }
+        ]
+        
+    },
+    {
+        "que": 25,
+        "id": "saturn",
+        "group": "red",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 240,
+                "setStation": 150,
+                "setColony": 150
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 20,
+                "set": 40,
+                "stationx1": 100, 
+                "stationx2": 300, 
+                "stationx3": 750, 
+                "stationx4": 925, 
+                "colony": 1100 
+            }
+        ]
+        
+    },
+    {
+        "que": 26,
+        "id": "saturn-station",
+        "group": "stations",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 25,
+                "2station": 50,
+                "3station": 100,
+                "set": 200
+                
+            }
+        ]
+        
+    },
+    {
+        "que": 27,
+        "id": "ariel",
+        "group": "yellow",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 260,
+                "setStation": 150,
+                "setColony": 150
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 22,
+                "set": 44,
+                "stationx1": 110, 
+                "stationx2": 330, 
+                "stationx3": 800, 
+                "stationx4": 975, 
+                "colony": 1150 
+            }
+        ]
+        
+    },
+    {
+        "que": 28,
+        "id": "oberon",
+        "group": "yellow",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 260,
+                "setStation": 150,
+                "setColony": 150
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 22,
+                "set": 44,
+                "stationx1": 110, 
+                "stationx2": 330, 
+                "stationx3": 800, 
+                "stationx4": 975, 
+                "colony": 1150 
+            }
+        ]
+        
+    },
+
+    {
+        "que": 30,
+        "id": "uranus",
+        "group": "yellow",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 280,
+                "setStation": 150,
+                "setColony": 150
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 24,
+                "set": 48,
+                "stationx1": 120, 
+                "stationx2": 360, 
+                "stationx3": 850, 
+                "stationx4": 1025, 
+                "colony": 1200 
+            }
+        ]
+        
+    },
+    {
+        "que": 31,
+        "id": "blackhole",
+        "purchasable": false,
+        "action": "Blackhole"
+
+    },
+
+    {
+        "que": 32,
+        "id": "triton",
+        "group": "green",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 300,
+                "setStation": 200,
+                "setColony": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 26,
+                "set": 52,
+                "stationx1": 130, 
+                "stationx2": 390, 
+                "stationx3": 900, 
+                "stationx4": 1100, 
+                "colony": 1275 
+            }
+        ]
+        
+    },
+
+    {
+        "que": 33,
+        "id": "neptune",
+        "group": "green",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 300,
+                "setStation": 200,
+                "setColony": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 26,
+                "set": 52,
+                "stationx1": 130, 
+                "stationx2": 390, 
+                "stationx3": 900, 
+                "stationx4": 1100, 
+                "colony": 1275 
+            }
+        ]
+        
+    },
+
+    {
+        "que": 34,
+        "id": "inventory-station-2",
+        "purchasable": false,
+        "chance": 1
+    },
+
+    {
+        "que": 35,
+        "id": "pluto",
+        "group": "green",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 320,
+                "setStation": 200,
+                "setColony": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 28,
+                "set": 56,
+                "stationx1": 150, 
+                "stationx2": 450, 
+                "stationx3": 1000, 
+                "stationx4": 1200, 
+                "colony": 1400 
+            }
+        ]
+        
+    },
+
+    {
+        "que": 36,
+        "id": "pluto-station",
+        "group": "stations",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 25,
+                "2station": 50,
+                "3station": 100,
+                "set": 200
+                
+            }
+        ]
+        
+    },
+
+    {
+        "que": 37,
+        "id": "new-discovery-2",
+        "purchasable": false,
+        "chance": 1
+    },
+
+    {
+        "que": 38,
+        "id": "alpha-centauri-a",
+        "group": "blue",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 350,
+                "setStation": 200,
+                "setColony": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 35,
+                "set": 70,
+                "stationx1": 175, 
+                "stationx2": 500, 
+                "stationx3": 1100, 
+                "stationx4": 1300, 
+                "colony": 1500 
+            }
+        ]
+        
+    },
+
+    {
+        "que": 39,
+        "id": "anomaly-damage",
+        "purchasable": false,
+        "pay": 100
+    },
+
+    {
+        "que": 40,
+        "id": "alpha-centauri-b",
+        "group": "blue",
+        "ownedby": -1,
+        "buildings": 0,
+        "mortgaged": false,
+        "purchasable": true,
+        "cost":[
+            {
+                "purchase": 400,
+                "setStation": 200,
+                "setColony": 200
+            }
+        ],
+            
+       "rent":
+        [
+            {
+                "visit": 50,
+                "set": 100,
+                "stationx1": 200, 
+                "stationx2": 600, 
+                "stationx3": 1400, 
+                "stationx4": 1700, 
+                "colony": 2000 
+            }
+        ]
+        
+    }
+
+]
