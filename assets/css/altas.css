@@ -1,14 +1,5 @@
-.altas-game-table tr{
-    
-}
-
-table, th, td, tr{
-    border: 0px solid rgb(255, 255, 255);
-    border-collapse: separate;
-    border-collapse: collapse;
-    border-spacing: 0px;
-}
-
-tr, th, td {
-    padding: 0;
+.allboards table {
+    overflow-wrap: normal;
+    max-height: 800px;
+    max-width: 100%;
 }
