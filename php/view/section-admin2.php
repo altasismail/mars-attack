@@ -10,8 +10,8 @@
   </tr>
   <tr class="mkOnePlayerInfos">
     <td class="mkPlayerId">1</td>
-    <td class="mkPlayerName">Maria</td>
-    <td class="mkPlayerEmail">maria@mail.com</td>
+    <td class="mkPlayerName">Merve</td>
+    <td class="mkPlayerEmail">merve@mail.com</td>
     <td class="mkPlayerPassword">123456</td>
   </tr>
   

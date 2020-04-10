@@ -5,7 +5,7 @@ require_once "bddConnect.php";
 
 $requetSQL = 
 <<<CODESQL
-SELECT  email, password FROM players   
+SELECT  * FROM players   
 CODESQL;
 
 $pdoStatement = $pdo->prepare($requetSQL);
