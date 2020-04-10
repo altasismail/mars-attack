@@ -162,6 +162,26 @@ img {vertical-align: middle;}
   .nesl-prev, .nesl-next,.nesl-text {font-size: 11px}
 }
 
+.nesl-gameRules img{
+    border-radius: 75%;
+    height:300px;
+    object-fit:cover;
+    float: inline-start;
+    margin-right: 1em;
+}
+
+.nesl-gameRules h2{
+    margin:0.5rem;
+    width: calc( 100% / 2- 1rem);
+    float: left;
+    color: pink;
+}
+
+.nesl-gameRules h3{
+    margin:1rem;
+    color: lightgrey;
+
+}
     
 
     
