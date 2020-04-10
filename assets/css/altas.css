@@ -1,4 +1,7 @@
-.allboards table {
+.altas-game {
+
+    display: flex;
+    justify-content: flex-start;
     overflow-wrap: normal;
     max-height: 800px;
     max-width: 100%;
