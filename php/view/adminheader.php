@@ -18,17 +18,9 @@
          <nav class="mkadmin2nav">
            <ul>
              
-<<<<<<< HEAD
-             <li><a class="mkadmin2"   href="admin2.php">Personal Information</a></li>
-             <li><a class="mkadminblog"    href="adminBlog.php">Blog List & New Blog</a></li>
-             <li><a href="adminPlayersList.php">Players List</a></li>
-            
-=======
              <li><a class="mkadmin2"   href="admin2.php">Personel Information</a></li>
              <li><a class="mkadminblog"    href="adminblog2.php">New Blog</a></li>
-             <li><a class="mkadminplayerslist" href="adminplayerslist2.php">Players List</a></li>
->>>>>>> bf87001d40188c37cfa72779d72e97372786554a
-            
+             
            </ul>
          </nav>
      </section> 
