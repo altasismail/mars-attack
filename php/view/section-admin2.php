@@ -1,5 +1,5 @@
 
-<h2 class="mkPersonelInformationTitle">Personel Information</h2>
+<h2 class="mkPersonelInformationTitle">Personal Information</h2>
 
 <table class="mkAllPersonelInformation">
   <tr class="mkTitleColone">

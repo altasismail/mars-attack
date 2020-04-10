@@ -1,3 +1,39 @@
+<section class="nesl-gameRules">
+    <img src="assets/img/marsAttack2-min.png" alt="">
+    <a href=""></a>
+    <h2>How to Play Mars-Attack?</h2>
+    <h3>     La Règle du Jeu Mars-Attack
+            Le jeu en bref:
+             Mars-Attack est le jeu où l'on achète, loue et vend des planètes  de façon à accroître ses richesses - le joueur le plus riche étant le vainqueur. En partant de la case départ, déplacez votre pion sur le plateau de jeu suivant votre résultat au lancer de dés.<span id="dots">...</span><span id="more"> Quand vous arrivez sur une case qui n'appartient encore à personne, vous pouvez l'acheter à la banque. Si vous décidez de ne pas l'acheter, la planète sera proposée aux enchères et reviendra au plus offrant.
+             Les joueurs qui sont propriétaires perçoivent des loyers de la part des adversaires s'arrêtant sur leur terrain. La construction des satellites et des hôtels spatiaux  augmente considérablement le loyer que vous pouvez percevoir pour vos planètes ; aussi, il est conseillé d’en construire dans un maximum de sites.
+             Si vous avez besoin de davantage d'argent, la banque peut vous en prêter par le biais d'hypothèque sur vos planètes. Vous devez toujours vous plier aux instructions données par les cartes caisse de communauté et chance. Parfois, vous serez envoyé dans la prison de l’espace.
+             Préparation du jeu
+             Rangez dans la boîte les satellites, les hôtels spatiaux, les cartes de planètes et les billets de banque (en fonction de leur valeur).
+             Séparez les cartes chance et caisse de communauté. Mélangez-les et posez-les à l'endroit indiqué sur le plateau de jeu.
+            Chaque joueur choisit un pion et le met sur la case départ.
+           </span></h3>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</section>
 <section class="general">
 
 <section class="blogPost">
