@@ -13,18 +13,15 @@
 </head>
 <body>
   <header>
-    <section class="mktitle">
+    <section class="mkadmin2title">
        <img src="assets/img/logo-min.png" href="index.php" alt="Logo Mars Attack">
-         <nav class="mknav">
+         <nav class="mkadmin2nav">
            <ul>
              
-             <li><a class="mkindex"   href="index.php">Home</a></li>
-             <li><a class="mkblog"    href="blog.php">Blog</a></li>
-             <li><a class="mkgame"    href="game.php">Game</a></li>
-             <li><a class="mkcontact" href="contact.php">Contact</a></li>
-             <li><a class="mkadmin"   href="admin.php">Admin</a></li>
-             <li style="float:right"><a class="mklogin" href="login.php">Login</a></li>
-             
+             <li><a class="mkadmin2"   href="admin2.php">Personel Information</a></li>
+             <li><a class="mkadminblog"    href="adminblog2.php">New Blog</a></li>
+             <li><a class="mkadminplayerslist" href="adminplayerslist2.php">Players List</a></li>
+            
            </ul>
          </nav>
      </section> 

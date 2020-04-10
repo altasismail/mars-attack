@@ -1,5 +1,34 @@
-.allboards table {
-    overflow-wrap: normal;
-    max-height: 800px;
-    max-width: 100%;
+.altas-game {
+
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.altas-game h1 {
+    color : white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.altas-gameside {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.altas-actions {
+    display: flex;
+    flex-direction: column;
+    
+}
+.altas-actions input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.gameboard {
+    margin-left: 20px;
+
 }
