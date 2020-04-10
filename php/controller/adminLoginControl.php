@@ -13,7 +13,7 @@ if(isset($_POST['aydnAdminButton'])) {
     while($list = $control->fetch(PDO::FETCH_ASSOC)) {
         if($list['email']===$mail) {
             if($list['password']===$pwd) {
-                header("location:../../index.php");
+                header("location:../../admin2.php");
             break;
             } else {
                 header("location:../../admin.php");
