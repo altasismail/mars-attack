@@ -8,7 +8,7 @@
     <th class="mkColoneEmail">Email</th>
     <th class="mkColonePassword">Password</th>
   </tr>
-  <tr calss="mkOnePlayerInfos">
+  <tr class="mkOnePlayerInfos">
     <td class="mkPlayerId">1</td>
     <td class="mkPlayerName">Maria</td>
     <td class="mkPlayerEmail">maria@mail.com</td>

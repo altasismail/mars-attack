@@ -34,13 +34,16 @@
   
   
   }
+ 
+
  .mknav li a:hover { background-color: #111;
                      
   }
  .mknav ul li {display:inline-block;
   
   }
- .mklogin {background-color:rgb(213, 219, 132);
+ .mklogin {background-color:rgba(147, 153, 70, 0.726);
+    
 
  }
 
@@ -146,3 +149,10 @@ tr:nth-child(odd) {
   margin-bottom: -63px;
 }
 
+/*logout css
+*/
+
+.mklogout {background-color:rgba(240, 16, 16, 0.705);
+    
+
+}
