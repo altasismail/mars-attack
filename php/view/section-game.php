@@ -1,7 +1,7 @@
 <section class="altas-game">
 	<table class="gameboard" id="gameboard">
 		<tr>
-			<td>
+			<td onclick="FreeSpace()">
 				<img class="free-space" id="free-space" src="assets/img/altas-game-images/free-space.png" alt="free-space" /></td>
 			<td colspan="2">
 				<img class="titan" id="titan" src="assets/img/altas-game-images/titan.png" alt="titan" /></td>
@@ -101,16 +101,30 @@
 				<img class="inventory-station-0" id="inventory-station-0" src="assets/img/altas-game-images/inventory-station-0.png" alt="inventory-station-0" /></td>
 			<td>
 				<img class="mercure" id="mercure" src="assets/img/altas-game-images/mercure.png" alt="mercure" /></td>
-			<td>
+			<td onclick="Start()">
 				<img class="start" id="start" src="assets/img/altas-game-images/start.png" alt="start" /></td>
 		</tr>
 	</table>
+	<section class="altas-gameside">
+		<div id="message"><h1>MARS ATTACK</h1></div>
 
-	<table>
-		<tr>
-			<td>POSITION:</td>
-			<td>ACTION</td>
-			<td><h3>BUY - SELL - PASS</h3></td>
-		</tr>
-	</table>
+		<div id="player-info"></div>
+		<div id="property-info"></div>
+		
+		<div class="dice" id="dice">
+			<div class="die one" id="die-1"><span class="dot"></span></div>
+			<div class="die one" id="die-2"><span class="dot"></span></div>
+		</div>
+
+		<div class="altas-actions" id="actions">
+			<input type="button" value="LAUNCH YOUR SHIP" id="btn-launch">
+			<input type="button" value="Finish Turn" id="btn-finish"><br />
+			<input type="button" value="Build Stations" id="btn-stations">
+			<input type="button" value="Destroy Stations" id="btn-stations-dest"><br />
+			<input type="button" value="Mortgage" id="btn-mortgage">
+			<input type="button" value="Unmortgage" id="btn-unmortgage"><br />
+			<input type="button" value="Trade" id="btn-trade">
+		</div>
+	</section>
+
 </section>
