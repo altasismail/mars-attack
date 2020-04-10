@@ -5,7 +5,7 @@
 				<img class="free-space" id="free-space" src="assets/img/altas-game-images/free-space.png" alt="free-space" /></td>
 			<td colspan="2" onclick="Titan()">
 				<img class="titan" id="titan" src="assets/img/altas-game-images/titan.png" alt="titan" /></td>
-			<td onclick="New_discovery()">
+			<td onclick="New_discovery_1()">
 				<img class="new-discovery-1" id="new-discovery-1" src="assets/img/altas-game-images/new-discovery-1.png" alt="new-discovery-1" /></td>
 			<td onclick="Dione()">
 				<img class="dione" id="dione" src="assets/img/altas-game-images/dione.png" alt="dione" /></td>
@@ -39,9 +39,9 @@
 				<img class="neptune" id="neptune" src="assets/img/altas-game-images/neptune.png" alt="neptune" /></td>
 		</tr>
 		<tr>
-			<td onclick="Inventory_station()">
+			<td onclick="Inventory_station_1()">
 				<img class="inventory-station-1" id="inventory-station-1" src="assets/img/altas-game-images/inventory-station-1.png" alt="inventory-station-1" /></td>
-			<td onclick="Inventory_station()">
+			<td onclick="Inventory_station_2()">
 				<img class="inventory-station-2" id="inventory-station-2" src="assets/img/altas-game-images/inventory-station-2.png" alt="inventory-station-2" /></td>
 		</tr>
 		<tr>
@@ -59,7 +59,7 @@
 		<tr>
 			<td onclick="Europa()">
 				<img class="europa" id="europa" src="assets/img/altas-game-images/europa.png" alt="europa" /></td>
-			<td onclick="New_discovery()">
+			<td onclick="New_discovery_2()">
 				<img class="new-discovery-2" id="new-discovery-2" src="assets/img/altas-game-images/new-discovery-2.png" alt="new-discovery-2" /></td>
 		</tr>
 		<tr>
@@ -87,7 +87,7 @@
 				<img class="mars" id="mars" src="assets/img/altas-game-images/mars.png" alt="mars" /></td>
 			<td colspan="2" onclick="Moon()">
 				<img class="moon" id="moon" src="assets/img/altas-game-images/moon.png" alt="moon" /></td>
-			<td onclick="New_discovery()">
+			<td onclick="New_discovery_0()">
 				<img class="new-discovery-0" id="new-discovery-0" src="assets/img/altas-game-images/new-discovery-0.png" alt="new-discovery-0" /></td>
 			<td onclick="Earth()">
 				<img class="earth" id="earth" src="assets/img/altas-game-images/earth.png" alt="earth" /></td>
@@ -97,7 +97,7 @@
 				<img class="meteor-damage" id="meteor-damage" src="assets/img/altas-game-images/meteor-damage.png" alt="meteor-damage" /></td>
 			<td onclick="Venus()">
 				<img class="venus" id="venus" src="assets/img/altas-game-images/venus.png" alt="venus" /></td>
-			<td onclick="Inventory_station()">
+			<td onclick="Inventory_station_0()">
 				<img class="inventory-station-0" id="inventory-station-0" src="assets/img/altas-game-images/inventory-station-0.png" alt="inventory-station-0" /></td>
 			<td onclick="Mercure()">
 				<img class="mercure" id="mercure" src="assets/img/altas-game-images/mercure.png" alt="mercure" /></td>
