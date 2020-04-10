@@ -1,12 +1,18 @@
-<section class="mkAdmin2General">
-<div class="mkAdmin2Container">
-    <form id="mkAdmin2Form" method="post">
-        <h2 class="mkAdmin2Title">Personel Information</h2>
-        <input type="name" class="mkAdmin2Name" placeholder="&#x2709 Name"><br>
-        <input type="email" class="mkAdmin2Email" placeholder="&#x2709 Email"><br>
-        <input type="password" class="mkAdmin2Pwd" placeholder="&#xf023; Password"><br>
-        <input type="submit" id="mkAdmin2Button" value="Update">
-        
-    </form>
-</div>
-</section>
+
+<h2 class="mkPersonelInformationTitle">Personel Information</h2>
+
+<table class="mkAllPersonelInformation">
+  <tr class="mkTitleColone">
+    <th class="mkColoneId">Id</th>
+    <th class="mkColoneName">Name</th>
+    <th class="mkColoneEmail">Email</th>
+    <th class="mkColonePassword">Password</th>
+  </tr>
+  <tr calss="mkOnePlayerInfos">
+    <td class="mkPlayerId">1</td>
+    <td class="mkPlayerName">Maria</td>
+    <td class="mkPlayerEmail">maria@mail.com</td>
+    <td class="mkPlayerPassword">123456</td>
+  </tr>
+  
+</table>
