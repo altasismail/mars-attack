@@ -34,13 +34,16 @@
   
   
   }
+ 
+
  .mknav li a:hover { background-color: #111;
                      
   }
  .mknav ul li {display:inline-block;
   
   }
- .mklogin {background-color:rgb(213, 219, 132);
+ .mklogin {background-color:rgba(147, 153, 70, 0.726);
+    
 
  }
 
@@ -58,45 +61,56 @@
 
 }
 
- .mkadmin2nav li a {float:right;
-                    color: #f2f2f2;
-                    text-align: center;
-                    padding: 16px 18px;
-                    text-decoration: none;
-                    font-size: 20px;
 
- }
- 
-  
- .mkadmin2nav li a:hover { background-color: #111;
-                     
- }
+.mkadmin2nav li a { float:right;
+color: #f2f2f2;
+text-align: center;
+padding: 16px 18px;
+text-decoration: none;
+font-size: 20px;
+
+
+}
+.mkadmin2nav li a:hover { background-color: #111;
+         
+}
 .mkadmin2nav ul li {display:inline-block;
- 
- }
- .mkAdmin2General {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
+
 }
 
-.mkAdmin2Container {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-/*adminblog2 css
+/*Personel ınformation css
 */
 
 
+ .mkPersonelInformationTitle {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
 
+.mkAllPersonelInformation {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.mkAllPersonelInformation > td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  color: white;
+  background-color: #868585;
+}
+
+/*adminblog2 css
+*/
 
  
  .mkAdminBlogGeneral {
@@ -116,4 +130,29 @@
   width: 100%;
   margin: 0 auto;
   position: relative;
+}
+
+
+
+.mkadmin2title {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+             
+ }
+
+
+
+.mkadmin2title img{
+  max-height: 100px;
+  max-width: 100%;
+  margin-bottom: -63px;
+}
+
+/*logout css
+*/
+
+.mklogout {background-color:rgba(240, 16, 16, 0.705);
+    
+
 }

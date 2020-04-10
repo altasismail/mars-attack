@@ -7,11 +7,11 @@
 } */
 
 .neslihan-blogResimleri img{
-    border-radius: 55%;
-    width:55%;
-    height:350px;
+    border-radius: 75%;
+    height:300px;
     object-fit:cover;
-    float: left;
+    float: inline-start;
+    margin-right: 1em;
     
  }
 
@@ -19,13 +19,13 @@
     margin:0.5rem;
     width: calc( 100% / 2- 1rem);
     float: left;
-    color: white;
+    color: pink;
 
  }
 
- .neslihan-blogResimleri p{
+ .neslihan-blogResimleri h3{
     margin:1rem;
-    color: white;
+    color: lightgrey;
 
  }
  
