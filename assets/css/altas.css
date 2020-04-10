@@ -5,8 +5,8 @@
 
 
 }
-.altas-game h1, h2, h3, h4, h5, h6, p {
-    color : white;
+.altas-game h1, .altas-game h2, .altas-game h3, .altas-game h4, .altas-game h5, .altas-game h6, .altas-game p {
+    color : rgb(207, 93, 26);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 

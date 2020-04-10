@@ -66,6 +66,18 @@ function Interstellar_network(){
     var networkText = "<h4>Control all the communication..  So you got the power!</h4>"
     document.getElementById("property-info").innerHTML = networkText;
 }
+function Io(){
+    var ioText = "<h4>To attack, you better control all the moons of Jupiter</h4>"
+    document.getElementById("property-info").innerHTML = ioText;
+}
+function Europa(){
+    var europaText = "<h4>This is a strategic position, never let it in the hands of Attackers!</h4>"
+    document.getElementById("property-info").innerHTML = europaText;
+}
+function Io(){
+    var ioText = "<h4>To attack, you better control all the moons of Jupiter</h4>"
+    document.getElementById("property-info").innerHTML = ioText;
+}
 function FreeSpace(){
     var freeSpaceText = "<h2>Bonne Voyage Space Advanturer</h2>"
     document.getElementById("property-info").innerHTML = freeSpaceText;
