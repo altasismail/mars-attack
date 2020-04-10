@@ -20,7 +20,7 @@
              
              <li><a class="mkadmin2"   href="admin2.php">Personel Information</a></li>
              <li><a class="mkadminblog"    href="adminblog2.php">New Blog</a></li>
-             <li><a class="mkadminplayerlist"    href="adminplayerlist2.php">Player List</a></li>
+            
             
            </ul>
          </nav>
