@@ -4,7 +4,6 @@
 
 */
 
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
  .aydnGeneral {
   margin: 0;
@@ -153,15 +152,7 @@ fieldset {
 
   Contact Page Codes !!!!!
 
-*/
-
-
-/*
   ==============================================
-*/
-
-
-/*
 
   Login Page Codes
 
@@ -186,6 +177,7 @@ fieldset {
   margin: 0 auto;
   position: relative;
 }
+
 
 #aydnLoginForm input[type="email"],
 #aydnLoginForm input[type="password"],
@@ -299,15 +291,7 @@ fieldset {
 
   Login Page Codes !!!!!
 
-*/
-
-
-/*
   ==============================================
-*/
-
-
-/*
 
   Admin Login Page Codes
 
@@ -427,15 +411,7 @@ fieldset {
 
   Admin Login Page Codes !!!!!
 
-*/
-
-
-/*
   ==============================================
-*/
-
-
-/*
 
   Sign Up page Codes 
 
@@ -564,15 +540,7 @@ fieldset {
 
   Sign Up page Codes  !!!!!
 
-*/
-
-
-/*
   ==============================================
-*/
-
-
-/*
 
   Admin's Player List 
 
@@ -611,15 +579,7 @@ tr:nth-child(odd) {
 
   Admin's Player List   !!!!!
 
-*/
-
-
-/*
   ==============================================
-*/
-
-
-/*
 
   Admin's Blog List 
 
@@ -652,20 +612,11 @@ tr:nth-child(odd) {
   background-color: #868585;
 }
 
-
 /*
 
   Admin's Blog List    !!!!!
 
-*/
-
-
-/*
   ==============================================
-*/
-
-
-/*
 
   .......................... 
 

@@ -19,7 +19,7 @@
            <ul>
              <li><a class="mkadmin2"   href="admin2.php">Personal Information</a></li>
              <li><a class="mkadminblog"    href="adminBlog.php">Blog List & New Blog</a></li>
-             <li><a href="adminPlayersList.php">Players List</a></li>
+             <li><a class="mkadminplayerlist" href="adminPlayersList.php">Players List</a></li>
              <li style="float:right"><a class="mklogout" href="admin.php">Logout</a></li>
            </ul>
          </nav>
