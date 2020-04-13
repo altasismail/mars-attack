@@ -1,38 +1,38 @@
 console.log("JS Aydin");
 
-
-// var butonLogin = document.querySelector(".active");
-
-// // Debug
-// console.log(butonLogin);
-
-
-
-// butonLogin.addEventListener("click",function(event){
-//     butonLogin.preventDefault();
-//     var email = document.getElementsByClassName("aydnLoginEmail").value;
-//     var pass = document.getElementsByClassName("aydnLoginPwd").value;
-//     const buton = document.getElementById("aydnLoginButton");
-
-//     buton.addEventListener("click", function(btn) {
-//             buton.preventDefault();
-        
-        
-//         fetch("php/controller/apiFullInfor.php").then(function(response){
-//             return response.json();
-//         }).then(function(getEmail){
-//             for(var i=0; i<getEmail.length; i++){
-//                 if(getEmail[i].email === email) {
-//                     if(getEmail[i].password === pass) {
-//                         window.location="index.php";
-//                     } else {
-//                         document.write("Your password is wrong try again !!!");
-//                     }
-//                 } else {
-//                     document.write("Your email is not matched !!!");
-//                 }
-//             }
-//         });
-//     });
-// });
-
+// For Players List in Admin's Account by using API of Database
+function aydnAllPlayersList() {
+    //Debug
+    // console.log("For Liste OK");
+    let playersList = document.querySelector(".aydnAllPlayersList");
+    let listAllPlayers="";
+    fetch("php/controller/apiFullInfoPlayers.php").then(function(response){
+        // Debug
+        // console.log(response.json());
+        return response.json();
+    }).then(function(list){
+        // Debug
+        // console.log(list);
+        let tabForList = `
+            <tr class="aydnTitleColones">
+                <th class="aydnColoneId">Id</th>
+                <th class="aydnColoneName">Name</th>
+                <th class="aydnColoneSurname">Surname</th>
+                <th class="aydnColoneEmail">Email</th>
+                <th class="aydnColonePassword">Password</th>
+            </tr>`;
+        list.forEach(items => {
+            listAllPlayers += `
+            <tr class="aydnOnePlayerInfos">
+                <td class="aydnPlayerId">${items.id}</td>
+                <td class="aydnPlayerName">${items.name}</td>
+                <td class="aydnPlayerSurname">${items.surname}</td>
+                <td class="aydnPlayerEmail">${items.email}</td>
+                <td class="aydnPlayerPassword">${items.password}</td>
+            </tr>
+            `  
+            let liste = playersList.innerHTML = tabForList + listAllPlayers;
+            return liste;
+        });
+    });
+}
