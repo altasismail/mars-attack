@@ -13,9 +13,11 @@ function aydnAllPlayersList() {
     }).then(function(list){
         // Debug
         // console.log(list);
+        let counter = 1;
         let tabForList = `
             <tr class="aydnTitleColones">
                 <th class="aydnColoneId">Id</th>
+                <th class="aydnColoneNo">No</th>
                 <th class="aydnColoneName">Name</th>
                 <th class="aydnColoneSurname">Surname</th>
                 <th class="aydnColoneEmail">Email</th>
@@ -25,12 +27,14 @@ function aydnAllPlayersList() {
             listAllPlayers += `
             <tr class="aydnOnePlayerInfos">
                 <td class="aydnPlayerId">${items.id}</td>
+                <td class="aydnPlayerNo">${counter}</td>
                 <td class="aydnPlayerName">${items.name}</td>
                 <td class="aydnPlayerSurname">${items.surname}</td>
                 <td class="aydnPlayerEmail">${items.email}</td>
                 <td class="aydnPlayerPassword">${items.password}</td>
             </tr>
             `  
+            counter++;
             let liste = playersList.innerHTML = tabForList + listAllPlayers;
             return liste;
         });
