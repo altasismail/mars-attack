@@ -10,8 +10,33 @@ fetch(gameBoardInfo)
     console.error(error);
 
 });
+//FUEL FUNCTION =>
 
-//Messages functions=>
+function fuelUp () {
+    let img = document.getElementById('battery');
+    let fuel = document.querySelector('#fuel');
+    let fill = Math.floor(Math.random() * 6) + 1;
+
+    fuel.addEventListener('click', () => {
+        if (fill == 1)
+        img.src = "assets/img/altas-fuel-images/Helium-1.png";
+        else if (fill == 2)
+        img.src = "assets/img/altas-fuel-images/Helium-2.png";
+        else if (fill == 3)
+        img.src = "assets/img/altas-fuel-images/Helium-3.png";
+        else if (fill == 4)
+        img.src = "assets/img/altas-fuel-images/Helium-4.png";
+        else if (fill == 5)
+        img.src = "assets/img/altas-fuel-images/Helium-5.png";
+        else if (fill == 6)
+        img.src = "assets/img/altas-fuel-images/Helium-6.png";
+        else img.src = "assets/img/altas-fuel-images/Helium-0.png";
+    })
+
+
+   }
+
+// Messages functions=>
 
 function Start(){
     var startText = "<h2>Collect O2 200</h2>"

@@ -112,7 +112,7 @@
 		</div>
 
 		<div class="altas-actions" id="actions">
-			<input type="button" value="LAUNCH YOUR SHIP" id="btn-launch">
+			<input type="button" value="LAUNCH YOUR SHIP" id="fuel" onclick="fuelUp()">
 			<input type="button" value="Finish Turn" id="btn-finish"><br />
 			<input type="button" value="Build Stations" id="btn-stations">
 			<input type="button" value="Destroy Stations" id="btn-stations-dest"><br />
@@ -125,6 +125,11 @@
 		<div id="message"><h1>MARS ATTACK</h1></div>
 		<div id="player-info"></div>
 		<div id="property-info"><h2>Start</h2></div>
+
+	</section>
+	<section class="Fuel">
+	<h2>Helium Tanks</h2>
+	<div id="battery1"><img src="assets/img/altas-fuel-images/Helium-0.png" alt="" id="battery" ></div>
 
 	</section>
 
